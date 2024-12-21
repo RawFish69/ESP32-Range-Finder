@@ -24,10 +24,9 @@
 *ESP32 Range Finder Prototype*
 
 ## CAD Files
-TODO
+![CAD Drawing](misc/cad_drawing.png)
+*2D drawing of the range finder holder*
+### [3D model of the range finder holder](CAD/range_finder_model.stl)
 
 ## Circuit Diagrams
 TODO
-
-## License
-This project is available under an open-source license. See individual libraries for their licenses.
