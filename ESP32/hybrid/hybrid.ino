@@ -1,8 +1,8 @@
 /*
-ESP32 Range Finder
+ESP32 Range Finder - Hybrid Mode (TOF + Ultrasonic)
 Author: RawFish69
 Board: ESP32C3 Dev Module
-Sensors: VL53L1X, HC-SR04
+Devices: VL53L1X, HC-SR04
 */
 
 #include <WiFi.h>
