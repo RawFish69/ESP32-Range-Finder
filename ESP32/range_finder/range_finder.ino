@@ -19,7 +19,7 @@ Devices: VL53L1X, OLED
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
 #define OLED_RESET -1
-#define MAX_DISTANCE 2000
+#define MAX_DISTANCE 4000
 #define I2C_SDA 19
 #define I2C_SCL 4
 
@@ -187,11 +187,11 @@ void loop() {
                 display.setTextSize(2);
                 display.setCursor(0, 0);
                 display.print(distance);
-                display.println("mm");
+                display.println(" mm");
                 
                 display.setCursor(0, 20);
                 display.print(millimetersToInches(distance), 1);
-                display.println("in");
+                display.println(" in");
             } else {
                 display.setTextSize(2);
                 display.setCursor(0, 10);

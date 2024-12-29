@@ -18,7 +18,7 @@ Devices: VL53L1X, OLED
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
 #define OLED_RESET -1
-#define MAX_DISTANCE 2000
+#define MAX_DISTANCE 4000
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 Adafruit_VL53L1X lox = Adafruit_VL53L1X();
