@@ -1,4 +1,4 @@
-# ESP32-Ranger-Finder
+# ESP32-Range-Finder
 [![ESP32](https://img.shields.io/badge/ESP32-C3-green.svg)](https://www.espressif.com/en/products/socs/esp32-c3)
 [![ESP8266](https://img.shields.io/badge/ESP8266-NodeMCU-yellow.svg)](https://www.espressif.com/en/products/socs/esp8266)
 [![License](https://img.shields.io/badge/license-Open%20Source-blue.svg)](./LICENSE)
